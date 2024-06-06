@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header
+{
+	background-color: rgb(204,255,255);
+	height: 41px;
+}
+li
+{
+	list-style-type: none;
+	margin: 10% 5px;
+}
+/*.liste
+{
+	display: flex;
+}*/
+.topnav
+{
+	float: right;
+	margin-top: 20px;
+	position: relative;
+}
+.topnav a
+{
+	color: white;
+}
+.img-logo
+{
+	float: left;
+}
+.logo
+{
+	width: 50%;
+
+}
+#header-2
+{
+	background-color: rgb(154,153,255);
+	height: 80px;
+}
+/*#image-carousel
+{
+	
+	background-color: rgb(204,255,255);
+	height: 410px;
+}*/
+#demo
+{
+	margin-top: 20px;
+}
+/*.image-1
+{
+	background-color: rgb(153,153,255);
+	height: 112px;
+	width: 29%;
+}*/
+.blocs
+{
+	display: flex;
+	justify-content: space-around;
+}
+.bloc-1
+{
+	display: flex;
+	justify-content: row;
+	background-color: rgb(154,153,255);
+	width: 80%;
+	margin: 0px 0px;
+}
+@media screen and (max-width: 500px){
+	.bloc-1{
+		width: 70%;
+		margin: 0px 0px;
+	}
+	.bloc-2{
+		/*width: 30%;*/
+		/*height: 40%;*/
+		margin-top: 25px;
+	}
+	.blocs{
+		width: 90%;
+		display: grid;
+	}
+	#header{
+		width: 100%;
+	}
+	body{
+		width: 100% ;
+	}
+	#container2{
+		width: 100%;
+	}
+	.under-blocks{
+		height: 50%;
+	}
+	.under-blocks3{
+		margin-top: 20px;
+	}
+	.text-1{
+		/*margin: 0px 0px;
+		float: left;*/
+	}
+
+}
+
+.bloc-2
+{
+	display: flex;
+	background-color: rgb(154,153,255);
+	width: 81%;
+	height: 55%;
+}
+.bloc-3
+{
+	display: flex;
+	background-color: rgb(154,153,255);
+	width: 79%;
+	height: 55%;
+}
+.paragraphe-10
+{
+	margin: 16px 20px;
+	color: white;
+}
+.paragraphe-8
+{
+	margin: 16px 20px;
+	color: white;
+}
+.paragraphe-9
+{
+	margin: 16px 20px;
+	color: white;
+}
+.text-1
+{
+	/*float: left;
+	margin: 5px 63px;*/
+}
+.paragraphe1
+{
+	margin: -77px 104px;
+	color: white;
+}
+.paragraphe2
+{
+	margin: -77px 104px;
+	color: white;
+}
+.image-2
+{
+	background-color: rgb(153,153,255);
+	height: 112px;
+	width: 29%;
+}
+.paragraphe3
+{
+	margin: -77px 104px;
+	color: white;
+}
+.img-3
+{
+	background-color: rgb(153,153,255);
+	height: 112px;
+	width: 29%;
+}
+#article
+{
+	margin-top: 40px;
+}
+.paragraphe
+{
+	font-size: small;
+}
+.flag3
+{
+	border: 3px solid black;
+	border-radius: 3px;
+	width: 287px;
+}
+.flag1
+{
+	border: 3px solid black;
+	border-radius: 3px;
+	width: 287px;
+}
+.flag2
+{
+	border: 3px solid black;
+	border-radius: 3px;
+	width: 287px;
+}
+#section
+{
+	margin-top: 25px;
+}
+hr
+{
+	/*width: 1047px;*/
+}
+hr.new1
+{
+	/*width: 12px;*/
+}
+hr.new2
+{
+	/*width: 20px;*/
+}
+.paragraphe5
+{
+	margin: -97px 25%;
+	font-size: small;
+}
+.under-text2
+{
+	margin: 18% 0%;
+}
+.paragraphe-6
+{
+	margin: -97px 25%;
+	font-size: small;
+}
+.paragraphe-7
+{
+	margin: -97px 25%;
+	font-size: small;
+}
+.under-text3
+{
+	margin: 6% 0%;
+}
+#container2
+{
+	background-color: rgb(204,255,255);
+	height: 330px;
+}
+#myCarousel
+{
+	width: 65%;
+	margin-left: 15%;
+	margin-top: 25px;
+}
+
+
